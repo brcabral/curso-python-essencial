@@ -1,9 +1,8 @@
 ## Ambiente virtual
 
-- Instalar
-`sudo pip3.8 install virtualenv`
-`sudo pip3.8 install virtualenvwrapper`
-
+- Instalar  
+`sudo pip3.8 install virtualenv`  
+`sudo pip3.8 install virtualenvwrapper`  
 
 - Criar um ambiente virtual
 `mkvirtualenv <name> [-p python(3.8)]`

@@ -1,6 +1,6 @@
 ## PEP8 - Python Enhancement Proposal
-São propostas de melhorias para a linguagem Python
-A ideia da PEP8 é que possamos escrever códigos Python de forma Pythônica
+São propostas de melhorias para a linguagem Python  
+A ideia da PEP8 é que possamos escrever códigos Python de forma Pythônica  
 
 1. Utilize Camel Case para nomes de classes
 2. Utilize nomes em minúsculo, separado por underline para funções ou variáveis
