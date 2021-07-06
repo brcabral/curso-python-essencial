@@ -100,3 +100,30 @@ print(f'Somando a lista: {soma_impares(lista)}')
 # Enviando uma tupla
 tupla = (1, 2, 3, 4, 5, 6, 7)
 print(f'Somando a tupla: {soma_impares(tupla)}')
+
+print("--------------------------------------------------")
+
+
+# Desempacotar uma coleção
+def soma_multiplos_numeros(a, b, c):
+    print(a + b + c)
+
+
+lista = [1, 2, 3]
+tupla = (1, 2, 3)
+conjunto = {1, 2, 3}
+dicionario = dict(a=1, b=2, c=3)
+
+print('>>> soma_multiplos_numeros passando uma lista')
+soma_multiplos_numeros(*lista)
+print('>>> soma_multiplos_numeros passando uma tupla')
+soma_multiplos_numeros(*tupla)
+print('>>> soma_multiplos_numeros passando um conjunto')
+soma_multiplos_numeros(*conjunto)
+print('>>> soma_multiplos_numeros passando um dicionário')
+soma_multiplos_numeros(**dicionario)
+
+# OBS.: Para desempacotar uma lista, uma tupla ou um conjunto passamos o argumento devem ser precedido 1 asterisco
+# Já para os dicionários o argumento deve ser precedido 2 asteriscos.
+
+# OBS.: Os nomes da chave em um dicionário devem ser os mesmos dos parâmetros da função
