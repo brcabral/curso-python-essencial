@@ -18,10 +18,10 @@ print(f'Tipo da variável lista_reversed: {type(numeros_reversed)}')
 # Lista
 print(f'A variável numeros invertida formato lista: {list(reversed(numeros))}')
 
-#Tupla
+# Tupla
 print(f'A variável numeros invertida formato tupla: {tuple(reversed(numeros))}')
 
-#Conjunto (set)
+# Conjunto (set)
 #  Conjunto não guarda ordem de entrada, por isso não é garantia do retorno ordenado
 print(f'A variável numeros invertida formato conjunto: {set(reversed(numeros))}')
 
