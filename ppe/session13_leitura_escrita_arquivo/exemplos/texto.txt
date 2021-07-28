@@ -1,0 +1,15 @@
+Eu estou estudando na Geek University e estou aprendendo muito no curso de Programação em Python: Essencial
+
+Leitura de Arquivos
+
+Para ler o conteúdo de um arquivo em Python, utilizamos a função open()
+
+open() -> Na forma mais simples da função, passamos apenas um parâmetro de entrada,
+que é o caminho do arquivo a ser lido. Essa função retorna um _io.TextIOWrapper
+o qual iremos manipular.
+
+OBS.: Por padrão, a função open() abre o arquivo para leitura. Este arquivo deve
+existir, caso contrário haverá um erro tipo FileNotFoundError
+
+documentação:
+https://docs.python.org/3/library/functions.html#open
